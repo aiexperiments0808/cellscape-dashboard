@@ -1,11 +1,11 @@
 import { IncubatorState, GrowthStage } from "../types/incubator";
 
 const PLACEHOLDER_IMAGES = [
-  "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-  "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-  "https://images.unsplash.com/photo-1518770660439-4636190af475",
-  "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-  "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+  "/cell-image-1.jpg",  // Add your image files to the public folder
+  "/cell-image-2.jpg",  // and reference them here
+  "/cell-image-3.jpg",
+  "/cell-image-4.jpg",
+  "/cell-image-5.jpg",
 ];
 
 export const getRandomImage = () => {
