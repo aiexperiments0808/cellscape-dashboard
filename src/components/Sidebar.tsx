@@ -2,7 +2,7 @@ import {
   LayoutDashboard, 
   ScrollText, 
   Settings, 
-  Flask, 
+  Beaker, 
   BookOpen, 
   HelpCircle 
 } from "lucide-react";
@@ -18,7 +18,7 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
     { icon: LayoutDashboard, label: "Dashboard", active: true },
     { icon: ScrollText, label: "Event Log" },
     { icon: Settings, label: "Settings" },
-    { icon: Flask, label: "Experiments" },
+    { icon: Beaker, label: "Experiments" },
     { icon: BookOpen, label: "Knowledge Base" },
     { icon: HelpCircle, label: "Help" },
   ];
