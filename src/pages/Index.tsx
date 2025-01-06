@@ -83,10 +83,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-incubator-bg">
-      <Header onToggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
+      <Header onToggleSidebar={() => setSidebarOpen(true)} />
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-      <main className={`transition-[margin] duration-200 ${sidebarOpen ? "lg:ml-64" : "lg:ml-0"} p-4`}>
+      <main className="lg:ml-64 p-4">
         <div className="max-w-[1920px] mx-auto space-y-4">
           <div className="grid lg:grid-cols-[30%_1fr] gap-4">
             <div className="space-y-4">
