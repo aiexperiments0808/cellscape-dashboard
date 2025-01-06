@@ -37,8 +37,7 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
       <aside
         className={cn(
           "fixed top-16 bottom-0 left-0 w-64 bg-incubator-bg border-r border-incubator-accent1/20 transform transition-transform duration-200 ease-in-out z-50",
-          isOpen ? "translate-x-0" : "-translate-x-full",
-          "lg:translate-x-0"
+          isOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
         <nav className="p-4 space-y-2">

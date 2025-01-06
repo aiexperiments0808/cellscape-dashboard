@@ -14,7 +14,7 @@
     --popover-foreground: 0 0% 100%;
     --primary: 210 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 327 100% 50%;
+    --secondary: 120 100% 20%; /* Changed from pink to deep green */
     --secondary-foreground: 0 0% 100%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
