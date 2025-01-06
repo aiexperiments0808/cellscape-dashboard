@@ -56,7 +56,7 @@ export default {
         incubator: {
           bg: "#0D1117",
           accent1: "#007AFF",
-          accent2: "#006400", // Changed from #FF2079 to deep green
+          accent2: "#FF2079",
           text: "#FFFFFF",
           muted: "#888888",
         },
@@ -66,7 +66,7 @@ export default {
       },
       boxShadow: {
         glow: "0 0 10px rgba(0, 122, 255, 0.5)",
-        "glow-pink": "0 0 10px rgba(0, 100, 0, 0.5)", // Changed from pink to green glow
+        "glow-pink": "0 0 10px rgba(255, 32, 121, 0.5)",
       },
     },
   },
